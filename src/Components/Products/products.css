@@ -1,0 +1,44 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(247, 241, 241);
+}
+
+.home img{
+    width: 250px;
+    height: 240px;
+}
+
+.home .products{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.home .product{
+    width: 250px;
+    height: 310px;
+    box-shadow: rgba(0, 0, 0, 0.20) 2px 2px 2px 2px;
+    font-size: large;
+    font-weight: 600;
+    padding: 20px;
+    margin: 20px;
+}
+
+.product p{
+    padding-top: 1px;
+}
+
+#btn{
+    float: left;
+    border: none;
+    width: 18px;
+    height: 10px;
+    font-size: medium;
+    background-color: white;
+}
+
+#btn:hover{
+    cursor: pointer;
+}

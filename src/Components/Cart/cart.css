@@ -1,0 +1,61 @@
+.cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+.label .product{
+    display: flex;
+    width: 450px;
+    float: left;
+    justify-content: start;
+    margin-bottom: 40px;
+}
+
+.label .product h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.label .product p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.label .product img{
+    width: 75px;
+    height: 80px;
+    margin-right: 70px;
+}
+
+.bill{
+    width: 400px;
+    height: 350px;
+    box-shadow: rgba(0.20, 0.20, 0.20, 0.20) 8px 8px 8px 8px;
+    font-size: large;
+    font-weight: 600;
+    padding: 20px;
+    margin: 20px;
+}
+
+.bill h1{
+    margin-bottom: 150px;
+}
+
+.bill button{
+    width: 250px;
+    background-color: #404040;
+    color: white;
+    border: none;
+}
+
+.bill button:hover{
+    cursor: pointer;
+    color: red;
+}

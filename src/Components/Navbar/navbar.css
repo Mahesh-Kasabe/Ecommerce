@@ -1,0 +1,67 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    height: 40px;
+    width: 100%;
+    background-color: #382288;
+}
+
+.navbar input{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    width: 845px;
+    height: 35px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.navbar button{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 35px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    background-color: #382288;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar button:hover{
+    color: black;
+}
+
+.navbar .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.navbar .cart:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.navbar img{
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.navbar img:hover{
+    cursor: pointer;
+}
+
+.navbar p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: center;
+    color: white;
+}
