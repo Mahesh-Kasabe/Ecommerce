@@ -17,6 +17,7 @@
     float: left;
     justify-content: start;
     margin-bottom: 40px;
+    border-bottom: #404040 1px solid;
 }
 
 .label .product h2{

@@ -42,7 +42,7 @@ function Product({ id }) {
             <h1>Price: ${product.price}</h1>
 
             <button onClick={() => {
-                dispatch(addProduct({ quantity })) }}> Add to Cart </button>
+                dispatch(addProduct({ product })) }}> Add to Cart </button>
             </div>
         
     </div>
