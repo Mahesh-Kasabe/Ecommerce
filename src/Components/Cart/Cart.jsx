@@ -3,7 +3,7 @@ import "./cart.css"
 import { useSelector } from "react-redux"
 import StripeCheckout from "react-stripe-checkout"  
 
-const KEY = "pk_test_51KX5e8SGeZx1YzkJhCFIfpapfjIxTs3fPcCLR6rTmkO52vAJRgJFWE4hk0pBG4PNXpLRCp0ozxtPGP3M2hlPm7HO00NIWpCM0k";
+const KEY = "STRIPE_API";
 
 
 function Cart() {
@@ -13,8 +13,6 @@ function Cart() {
   const onToken= () => {
     setStripeToken(token);
   }
-
-  console.log(stripeToken);
 
   const products = useSelector(state=>state.cart.products);
   const [total, setTotal] = useState(0); 
@@ -39,7 +37,7 @@ function Cart() {
     
                 <div className='info'>
                 <h2>{product.product.productname}</h2>
-                <p>{product.product.id}</p>
+                <p>{product.product.Description}</p>
                 <p>$ {product.product.price}</p>
                 </div>
               </div>

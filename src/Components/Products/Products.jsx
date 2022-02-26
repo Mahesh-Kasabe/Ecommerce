@@ -24,12 +24,14 @@ function Products() {
         <h1>Products</h1>
     <div className='products'>
       {
-        products.map((product) => {
+        products.filter((product, index)=>  index < 4).map((product) => {
           return(
+              
               <div className="product">
               <p>{product.productname} </p>
               <img src={product.productimage} alt='amazon' />
               <button id='btn' onClick={() => {navigate(`/product/${product.id}`)} }> View </button>
+              <br/>
               </div>
           )
         })
