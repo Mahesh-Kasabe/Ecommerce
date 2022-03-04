@@ -12,9 +12,9 @@
     height: 240px;
 }
 
-.home .products{
+.products{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
@@ -24,8 +24,10 @@
     box-shadow: rgba(0, 0, 0, 0.20) 2px 2px 2px 2px;
     font-size: large;
     font-weight: 600;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .product p{

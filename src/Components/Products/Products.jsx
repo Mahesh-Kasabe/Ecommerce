@@ -24,7 +24,7 @@ function Products() {
         <h1>Products</h1>
     <div className='products'>
       {
-        products.filter((product, index)=>  index < 4).map((product) => {
+        products.map((product) => {
           return(
               
               <div className="product">
